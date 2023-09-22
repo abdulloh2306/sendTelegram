@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>19-dars</title>
 </head>
 <body>
     <h1>Menga habar yuvoring</h1>
+    <input type="text" placeholder="Ismingiz"  id="username"> <br> <br>
+    <input type="text" placeholder="Telefon raqamingiz"  id="phone" autocomplete="off"> <br> <br>
+    <textarea name="message" id="message" placeholder="Menga yozing" cols="30" rows="10"></textarea> <br> <br>
+    <button onclick="send()">Yuborish</button>
+    <script src="main.js"></script>
 </body>
 </html>
